@@ -5,7 +5,7 @@ date: "as of 5/27/2022"
 output: html_document
 ---
 
-I spent too long trying to figure out the donations that the NRA made to the campaigns of my Senators, so I decided to build my own dashboard. It's got the rounded donation numbers, the number of gun deaths in the state they represent, their NRA rating, and any comments they made to the New York Times about policy proporsals post-Uvalde.
+I spent way too long trying to figure out the donations that the NRA made to the campaigns of my Senators, so I decided to build my own dashboard. It's got the rounded donation numbers, the number of gun deaths in the state they represent, their NRA rating, and any comments they made to the New York Times about policy proporsals post-Uvalde.
 
 There are only Republicans, obviously, so I didn't add any Democrats, since it would be fairly spacious for what we already know. Rick Scott is the only Republican Senator who did not receive contributions from the NRA, but I included him for completeness' sake.
 
