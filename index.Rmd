@@ -1,0 +1,22 @@
+---
+title: "NRA Political Donations"
+author: "Zev Burton (@zevulous)"
+date: "as of 5/27/2022"
+output: html_document
+---
+
+I spent too long trying to figure out the donations that the NRA made to the campaigns of my Senators, so I decided to build my own dashboard. It's got the rounded donation numbers, the number of gun deaths in the state they represent, their NRA rating, and any comments they made to the New York Times about policy proporsals post-Uvalde.
+
+There are only Republicans, obviously, so I didn't add any Democrats, since it would be fairly spacious for what we already know. Rick Scott is the only Republican Senator who did not receive contributions from the NRA, but I included him for completeness' sake.
+
+```{r table, echo=FALSE, warning=FALSE}
+library(htmltools)
+htmltools::includeHTML("senator_nra.html")
+```
+Sources; [New York Times](https://www.nytimes.com/interactive/2022/05/25/us/gun-control-republican-senators.html) and [Gun Violence Archive](https://www.gunviolencearchive.org/)
+
+If you liked this, feel free to send it around. This is only good when people actually see it.
+
+And then naturally, support can be directed by following [my Tiktok](tiktok.com/@zevulous) or [signing up for my free newsletter where I send out cool articles on interesting topics.](https://zevulous.substack.com/)
+
+Also, if you're looking for a larger way to support, [you can buy me a coffee if you're so inclined](https://www.buymeacoffee.com/zevulous).
